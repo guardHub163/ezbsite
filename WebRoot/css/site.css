@@ -1,0 +1,318 @@
+/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    background: #fff;
+    font-size: .80em;
+    font-family:宋体;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #000;
+}
+
+a:hover
+{
+    color: #be0707;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:active
+{
+    color: #a30009;
+}
+
+p
+{
+    margin-bottom: 5px;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.head
+{
+    height: 106px;
+    background-color: #fff;
+}
+.dx_div
+{
+    height: 50px;
+    background-color: #be0707;
+}
+
+.dx_1000
+{
+    margin: auto;
+    width: 1000px;
+}
+
+.xx
+{
+    height: 50px;
+    line-height: 50px;
+    border-right: 0px solid #2db8c1;
+    background-color: #be0707;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+.xx:visited
+{
+    color: #fff;
+}
+
+.xx_s
+{
+    height: 50px;
+    line-height: 50px;
+    border-right: 0px solid #2db8c1;
+    background-color: #be0707;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 14px;
+    cursor: pointer;
+}
+.xx_bg
+{
+    background-image: url(../images/xx_bg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    color: #be0707 !important;
+    text-decoration: none;
+}
+
+
+.ztbt
+{
+    background-image: url(../images/img_08.png);
+    height: 485px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo
+{
+    height: 106px;
+    width: 233px;
+    float: left;
+    cursor: pointer;
+}
+.cd
+{
+    height: 106px;
+    width: 760px;
+    float: right;
+}
+.cd_01
+{
+    height: 33px;
+    line-height: 33px;
+    margin-top: 35px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.cd_02
+{
+    height: 33px;
+    line-height: 33px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.main
+{
+    margin: auto;
+    width: 1000px;
+}
+.footer
+{
+    background-image: url(../images/img_11.png);
+    height: 108px;
+}
+
+.footer_1000
+{
+    margin: auto;
+    width: 1000px;
+    background-image: url(../images/img_12.png);
+    height: 108px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bqxx
+{
+    text-align: center;
+    font-size: 12px;
+    height: 80px;
+    line-height: 80px;
+}
+.table_main
+{
+    border: 0px;
+    width: 100%;
+    height: 1 50px;
+}
+
+.hyxx
+{
+    height: 160px;
+    width: 310px;
+    background-color: #ecebeb;
+}
+
+.hyxx_title
+{
+    height: 50px;
+    line-height: 50px;
+    background-color: #be0707;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hyxx_main
+{
+    height: 110px;
+    text-align: left;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0px;
+    color: #000;
+}
+
+.js
+{
+    margin-top: 30px;
+}
+
+/* ��¼ҳ*/
+.login_img
+{
+    background-image: url(../images/login.png);
+    height: 475px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.zhxx
+{
+    width: 350px;
+    height: 50px;
+
+    float: right;
+    margin-top: 110px;
+}
+
+.zhm
+{
+    height: 50px;
+    line-height:50px;
+    padding-left:10px;
+
+    width:50px;
+    float:left;
+    text-align:center;
+     color:#fff;
+     font-weight:bold;
+     font-size:14px;
+        padding-left:20px;
+
+}
+
+.div_input
+{    height: 50px;
+    line-height:50px;
+     width:280px;
+     float:right;
+     font-size:14px;
+
+
+
+    
+    
+    }
+    
+.ps_input
+{ 
+    height:40px;
+    line-height:40px;
+    width:180px;
+    border:0px;
+         padding-left:10px;
+              font-size:14px;
+              font-family:宋体;
+              color:#ccc;
+               margin-left: 10px;
+    }    
+    
+ .div_login
+ { width:350px;
+   height:475px;
+   float:right;
+     } 
+     
+ .register
+ {
+  display: block;
+  width: 70%;
+  padding: 0;
+  background: #fedd00;
+  text-align:center;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  color: #bc7003;
+  border-radius: 2px;
+  line-height: 47px;
+  border-bottom: 3px solid #ef8200;
+  color:#cf9408!important;
+  text-decoration:none;
+
+     
+     
+     
+     } 
+     
+.login_main
+{  background-image: url(../images/module_1_bg.png);
+    margin: auto;
+    height:214px;
+    width: 1050px;
+}    
+
+.treeIcon{
+	background:url('../images/ps.png') no-repeat center center;
+}
